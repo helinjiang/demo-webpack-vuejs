@@ -2,7 +2,8 @@ var path = require('path')
 
 module.exports = {
   entry: {
-    app: './src/main.js'
+    app: './src/main.js',
+    simple: './src/pages/simple/main.js'
   },
   output: {
     path: path.resolve(__dirname, '../dist/static'),
